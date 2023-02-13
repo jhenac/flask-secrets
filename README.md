@@ -6,6 +6,7 @@ Keywords: Flask Framework, Jinja templating, bootsrap-flask, HTML
 ## Homepage:
 ![image](https://user-images.githubusercontent.com/98466796/218465762-77f16c29-b747-41f3-95d2-8940a5f68754.png)
 
+<hr>
 ## Login Page:
 ![image](https://user-images.githubusercontent.com/98466796/218465837-63edcfc8-12c6-49b0-84af-5aeb609ca75f.png)
 
