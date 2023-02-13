@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, PasswordField
 from wtforms.validators import InputRequired, Email, Length
@@ -26,7 +26,7 @@ def home():
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
-    login_form = LoginForm(request.form)
+    login_form = LoginForm()
     if login_form.validate_on_submit():
         if login_form.email.data == "admin@email.com" and login_form.password.data == "12345678":
             return render_template("success.html")
